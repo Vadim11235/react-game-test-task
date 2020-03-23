@@ -1,0 +1,16 @@
+.cell {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ff4545cc;
+}
+.cell_empty {
+	background-color: transparent;
+}
+.cell_win {
+	background-color: #00aaff;
+}
+.cell > img {
+  width: 90%;
+  height: auto;
+}
