@@ -1,0 +1,31 @@
+.header {
+  padding: 20px 0;
+  background-color: #ff4545;
+  box-shadow: 0 0 15px #ff4545;
+}
+.header__content {
+  margin: auto;
+  width: 40%;
+  min-width: 280px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #ffff00;
+}
+.logo {
+  margin-right: 15px;
+  width: 70px;
+}
+.logo > img {
+  width: 100%;
+  height: auto;
+}
+.header__content > span {
+  font-size: 18px;
+  letter-spacing: 3px;
+}
+.content {
+  margin: 30px auto 0;
+  width: 100%;
+  text-align: center;
+}
